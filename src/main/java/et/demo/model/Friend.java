@@ -22,14 +22,17 @@ public class Friend {
 
 
 
-	public Friend(String firstName, String lastName, String email, String phoneNo, Address address) {
+
+	public Friend(String firstName, String lastName, String email, String phoneNo, String nickName, Address address) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 		this.phoneNo = phoneNo;
+		this.nickName = nickName;
 		this.address = address;
 	}
+
 
 
 
@@ -38,6 +41,7 @@ public class Friend {
     private String lastName;
     private String email;
     private String phoneNo;
+    private String nickName;
     
     @Embedded
     private Address address;
@@ -118,10 +122,24 @@ public class Friend {
 	}
 
 
-
-
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+
+
+
+
+
+	public String getNickName() {
+		return nickName;
+	}
+
+
+
+
+
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
 	}
     
     
