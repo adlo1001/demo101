@@ -20,7 +20,7 @@ class DemoApplicationTests {
 	
 	@Test
 	void contextLoads() {
-		Assert.assertNotNull(friendService);
+		//Assert.assertNotNull(friendService);
 		
 	}
 

@@ -1,2 +1,7 @@
+et\demo\service\FriendService.class
 et\demo\DemoApplication.class
+et\demo\model\Address.class
 et\demo\ServletInitializer.class
+et\demo\controller\FriendController.class
+et\demo\model\Friend.class
+et\demo\dao\FriendDAOCommandLineRunner.class
